@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 :root {
     --couleur1: #D89584;
@@ -86,6 +88,7 @@ a.contact-button:hover {
     padding-right: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow: auto;
 }
 
 div.section-grise1 {
@@ -121,4 +124,58 @@ div.section-grise1 p {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.col40 {
+    width: 40%;
+}
+
+.col60 {
+    width: 60%;
+}
+
+.float-right {
+    float: right;
+}
+
+div.text-avec-ligne-verticale {
+    border-left: 4px solid var(--couleur1);
+    padding-left: 8px;
+    height: 50px;
+    display: inline-block;
+}
+
+div.text-avec-ligne-verticale:first-child {
+    margin-top: 0;
+}
+
+a.text-avec-ligne-verticale {
+    margin-top: 0;
+    border-left: 4px solid var(--couleur1);
+    padding-left: 8px;
+}
+
+div.barre-verticale {
+    height: 50px;
+    width: 4px;
+    background-color: var(--couleur1);
+    margin-right: 8px;
+}
+
+.col-portfolio {
+    width: 50%;
+}
+
+div.frame {
+    margin-top: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+p.frame-title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
 }
